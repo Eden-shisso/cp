@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trans"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/reda"
+        android:layout_width="215dp"
+        android:layout_height="201dp"
+        android:background="@drawable/reda1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_below="@+id/reda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bek"
+        android:text="WELCOME"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

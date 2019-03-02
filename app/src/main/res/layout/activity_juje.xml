@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indura"
+    tools:context=".jujeActivity">
+
+    <ImageView
+        android:id="@+id/im_logo"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        app:srcCompat="@drawable/redac"
+        android:contentDescription="TODO"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/im_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username/Email"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/et_new_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:ems="10"
+        android:hint="Eneter New password"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_re_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_new_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:ems="10"
+        android:hint="Re Enter Password"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_re_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:background="@drawable/button_rectangle"
+        android:textColor="#ffff"
+        android:text="Save New Password" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</RelativeLayout>
